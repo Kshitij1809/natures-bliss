@@ -1,0 +1,300 @@
+@media screen and (max-width:1080px) {
+    /* about-us */
+    .desc h1{
+        font-size: 2rem;
+    }
+
+    .desc p{
+        font-size: 1rem;
+    }
+
+    .card h2{
+        font-size: 1.2rem;
+        /* font-size: 18px; */
+    }
+
+    .card p{
+        font-size: 0.85rem;
+        /* font-size: 13px; */
+    }
+
+    /* products */
+    .products .desc h2{
+        font-size: 1.2rem;
+    }
+
+    /* services */
+    .services .desc h2{
+        font-size: 1.2rem;
+    }
+
+    .services .desc p{
+        font-size: 0.85rem;
+    }
+
+    /* footer */
+    footer{
+        height: fit-content;
+    }
+
+    .foot p{
+        font-size: 0.85rem;
+    }
+
+    .col-2 h2{
+        font-size: 1.2rem;
+    }
+
+    .links a{
+        font-size: 0.85rem;
+    }
+
+    #btn{
+        font-size: 0.85rem;
+    }
+
+    /* copyright */
+    .copyright p{
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .con{
+        max-width: 95%;
+    }
+
+    /* about-us */
+    .desc{
+        height: fit-content;
+        max-width: 95%;
+    }
+
+    .desc h1{
+        font-size: 1.5rem;
+    }
+
+    .desc p{
+        font-size: 0.85rem;
+    }
+
+    /* cards */
+    .cards{
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        /* flex-direction: row; */
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card{
+        height: 220px;
+        width: 240px;
+    }
+
+    .card .image{
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .cards h2, .cards p{
+        padding: 5px;
+        margin: 0;
+    }
+
+    .card h2{
+        font-size: 1.2rem;
+        /* font-size: 18px; */
+    }
+
+    .card p{
+        font-size: 0.75rem;
+        /* font-size: 13px; */
+    }
+
+    /* services */
+    .services{
+        height: fit-content;
+    }
+
+    /* products */
+    .products{
+        height: fit-content;
+    }
+
+    .products .desc h2{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    /* services */
+    .services .desc h2{
+        font-size: 1.1rem;
+    }
+
+    .services .desc p{
+        font-size: 0.75rem;
+    }
+
+    /* footer */
+    footer{
+        height: fit-content;
+    }
+
+    .foot p{
+        font-size: 0.75rem;
+    }
+
+    .col-2 h2{
+        font-size: 1rem;
+    }
+
+    .links a{
+        font-size: 0.75rem;
+    }
+
+    #btn{
+        font-size: 0.75rem;
+    }
+
+    /* copyright */
+    .copyright p{
+        font-size: 0.75rem;
+    }
+
+    /* btn */
+    .btn{
+        padding-inline: 10px;
+        padding-block: 5px;
+        font-size: 0.85rem;
+    }
+
+    #btn{
+        padding-inline: 10px;
+        padding-block: 5px;
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .con{
+        max-width: 96%;
+    }
+
+    /* about-us */
+    .desc{
+        height: fit-content;
+        max-width: 100%;
+    }
+
+    .desc h1{
+        font-size: 1.4rem;
+    }
+
+    .desc p{
+        font-size: 0.75rem;
+    }
+
+    /* cards */
+    .cards{
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        /* flex-direction: row; */
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card{
+        height: 220px;
+        width: 240px;
+    }
+
+    .card .image{
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .cards h2, .cards p{
+        padding: 5px;
+        margin: 0;
+    }
+
+    .card h2{
+        font-size: 1.2rem;
+        /* font-size: 18px; */
+    }
+
+    .card p{
+        font-size: 0.75rem;
+        /* font-size: 13px; */
+    }
+
+    /* services */
+    .services{
+        height: fit-content;
+    }
+
+    /* products */
+    .products{
+        height: fit-content;
+    }
+
+    .products .desc h2{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    /* services */
+    .services .desc h2{
+        font-size: 1.1rem;
+    }
+
+    .services .desc p{
+        font-size: 0.75rem;
+    }
+
+    /* footer */
+    footer{
+        height: fit-content;
+    }
+
+    .foot{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .foot p{
+        font-size: 0.75rem;
+    }
+
+
+    /* copyright */
+    .copyright p{
+        font-size: 0.75rem;
+    }
+
+    /* btn */
+    .btn{
+        padding-inline: 0.5rem;
+        padding-block: 0.5rem;
+        font-size: 0.6rem;
+    }
+
+    #btn{
+        padding-inline: 0.5rem;
+        padding-block: 0.5rem;
+        font-size: 0.6rem;
+        font-size: 0.65rem;
+    }
+
+    .logo{
+        height: 50px;
+    }
+
+    .menu{
+        height: fit-content;
+    }
+}
